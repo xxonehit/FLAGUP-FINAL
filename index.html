@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <script src="/Jquery3.js"></script>
+</head>
+<body>
+    <div class="P-Bg">
+        <img class="P-img" src="./source/BACKGROUND.png" >
+    </div>
+    <div class="container">
+        <div class="header">
+            <img src="./source/Asset 1@4x.png" alt="" class="header__sponsor">
+        </div>
+        <div class="body">
+            <img src="./source/FSC.svg" alt="" class="body__logo">
+            <div class="body__main-view">
+                <img src="./source/Title.svg" alt="" class="body__main-view__title">
+                <img src="./source/CUP.png" alt="" class="body__main-view__cup">
+            </div>
+            <div class="body__btn-list PBT1">
+                <div class="body__btn-item i1 PBT1">
+                    <div class="body__btn-item__lbl PBT1">Form đăng ký Flagup 2024</div>
+
+                    <div class="body__btn-item__icon PBT1" >         
+                        <img src="./source/FORM.svg" alt="">
+                    </div>
+                </div>
+                <div class="body__btn-item i2 PBT2">
+                    <div class="body__btn-item__lbl PBT2">Hand Book</div>
+                   
+                    <div class="body__btn-item__icon PBT2">         
+                        <img src="./source/Book.svg" alt="">
+                    </div>
+                </div>
+                <div class="body__btn-item i3 PBT3">
+                    <div class="body__btn-item__lbl PBT3">Fanpage Flagship</div>
+
+                    <div class="body__btn-item__icon PBT3">         
+                        <img src="./source/FACEBOOK.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+var button1 = document.getElementsByClassName("PBT1");
+for(i=0;i<button1.length;i++){
+button1[i].style.cursor = 'pointer';
+button1[i].onclick = function() {
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSdpoivliKFJp-rjQOoE1fkNw186xNMiAi4M4ROoBIr8J32rzg/viewform");
+};}
+
+var Button2 = document.getElementsByClassName("PBT2");
+for(i=0;i<Button2.length;i++){
+Button2[i].style.cursor = 'pointer';
+Button2[i].onclick = function() {
+    window.open("https://drive.google.com/file/d/1H-xvnPetcLSY6ba7eWZHBG9jIvXykqbX/view?fbclid=IwZXh0bgNhZW0CMTAAAR36T5zEJK90IgEeT321dkJtzMHnHvdwx279mlXFUQb9hl0VcUTsfPC1Gvc_aem_ZmFrZWR1bW15MTZieXRlcw");
+};}
+
+var Button3 = document.getElementsByClassName("PBT3");
+for(i=0;i<Button2.length;i++){
+Button3[i].style.cursor = 'pointer';
+Button3[i].onclick = function() {
+    window.open("https://www.facebook.com/flagup.flagshipstartupclub");
+};}
+</script>
+</html>
